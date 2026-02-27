@@ -1,6 +1,6 @@
 # Agents
 
-This repository includes two local skills. Load them only when the task matches the scope described below.
+This repository includes three local skills. Load them only when the task matches the scope described below.
 
 ## ror-better-specs (betterspecs-skill/SKILL.md)
 
@@ -16,7 +16,14 @@ Load when the user asks to apply, summarize, or enforce Rails style conventions 
 - Open `ror-styleguide/SKILL.md` and follow its workflow.
 - Load only the relevant section files under `ror-styleguide/references/` for the areas in scope.
 
+## rails-upgrade-latest (rails-upgrade-latest/SKILL.md)
+
+Load when the user asks to upgrade or migrate an existing Rails app to a newer/latest Rails version, or requests a Rails upgrade checklist/workflow based on the official upgrading guide.
+
+- Open `rails-upgrade-latest/SKILL.md` and follow its workflow.
+- Load `rails-upgrade-latest/references/upgrade-workflow.md` for the guide-aligned step-by-step checklist.
+
 ## When not to load a skill
 
-- If the request does not involve Rails/RSpec specs or Rails style rules, proceed without loading a skill.
+- If the request does not involve Rails/RSpec specs, Rails style rules, or Rails version upgrades, proceed without loading a skill.
 - If the user explicitly asks to avoid using skills, comply.

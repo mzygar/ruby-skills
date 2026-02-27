@@ -5,6 +5,7 @@ A small collection of Codex skills focused on Ruby on Rails development.
 Included skills:
 - `ror-better-specs`: Rails/RSpec spec-writing guidance based on Better Specs.
 - `ror-styleguide`: Rails style conventions based on rails.rubystyle.guide.
+- `rails-upgrade-latest`: Guide-aligned workflow for upgrading Rails apps incrementally to the latest stable release.
 
 Sources:
 - Better Specs: https://www.betterspecs.org/
@@ -21,6 +22,7 @@ Example:
 mkdir -p "$CODEX_HOME/skills"
 cp -R betterspecs-skill "$CODEX_HOME/skills/"
 cp -R ror-styleguide "$CODEX_HOME/skills/"
+cp -R rails-upgrade-latest "$CODEX_HOME/skills/"
 ```
 
 Notes:
