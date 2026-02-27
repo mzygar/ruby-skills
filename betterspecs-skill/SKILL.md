@@ -1,5 +1,5 @@
 ---
-name: ror-better-specs
+name: betterspecs-skill
 description: Rails/RSpec spec-writing style guide based on Better Specs. Use when writing, reviewing, refactoring, or teaching Ruby on Rails specs; when asked for Better Specs rules or checklists; or when turning Better Specs guidance into examples or feedback.
 ---
 
